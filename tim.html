@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Tim - GENESIS</title>
+    <meta name="description" content="Tim inti dan struktur organisasi.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a class="brand" href="index.html#home">
+                <img src="assets/favicon.svg" alt="Logo" width="28" height="28">
+                <span>GENESIS</span>
+            </a>
+            <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html#tentang">Tentang</a></li>
+                <li><a href="sejarah.html">Sejarah</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="berita.html">Berita</a></li>
+                <li><a href="kegiatan.html">Kegiatan</a></li>
+                <li><a href="tim.html" aria-current="page">Tim</a></li>
+                <li><a class="btn" href="index.html#kontak">Hubungi Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section reveal" aria-labelledby="tim-title">
+            <div class="container">
+                <h1 id="tim-title">Tim Inti</h1>
+                <p class="intro">Kami bekerja lintas disiplin untuk menjalankan misi organisasi.</p>
+                <div class="team">
+                    <article class="person">
+                        <div class="avatar" aria-hidden="true">AK</div>
+                        <h3>Aruna K.</h3>
+                        <p>Ketua</p>
+                    </article>
+                    <article class="person">
+                        <div class="avatar" aria-hidden="true">BR</div>
+                        <h3>Bima R.</h3>
+                        <p>Program</p>
+                    </article>
+                    <article class="person">
+                        <div class="avatar" aria-hidden="true">CN</div>
+                        <h3>Citra N.</h3>
+                        <p>Operasional</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> GENESIS. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var year = document.getElementById('year');
+            if (year) year.textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html>
+
+

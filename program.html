@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Program - GENESIS</title>
+    <meta name="description" content="Program unggulan dan inisiatif Organisasi Kita.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a class="brand" href="index.html#home">
+                <img src="assets/favicon.svg" alt="Logo" width="28" height="28">
+                <span>GENESIS</span>
+            </a>
+            <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html#tentang">Tentang</a></li>
+                <li><a href="sejarah.html">Sejarah</a></li>
+                <li><a href="program.html" aria-current="page">Program</a></li>
+                <li><a href="berita.html">Berita</a></li>
+                <li><a href="kegiatan.html">Kegiatan</a></li>
+                <li><a href="tim.html">Tim</a></li>
+                <li><a class="btn" href="index.html#kontak">Hubungi Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section reveal" aria-labelledby="program-title">
+            <div class="container">
+                <h1 id="program-title">Program Unggulan</h1>
+                <p class="intro">Inisiatif berkelanjutan untuk pemberdayaan, pendidikan, dan riset.</p>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Pelatihan Digital</h3>
+                        <p>Kurikulum praktis untuk meningkatkan literasi dan keterampilan digital.</p>
+                        <a class="link" href="index.html#kontak">Pelajari lebih lanjut →</a>
+                    </article>
+                    <article class="card">
+                        <h3>Inkubasi Komunitas</h3>
+                        <p>Dukungan pendanaan mikro, mentoring, dan jaringan mitra.</p>
+                        <a class="link" href="index.html#kontak">Pelajari lebih lanjut →</a>
+                    </article>
+                    <article class="card">
+                        <h3>Riset Kebijakan</h3>
+                        <p>Analisis berbasis data untuk rekomendasi kebijakan yang adaptif.</p>
+                        <a class="link" href="index.html#kontak">Pelajari lebih lanjut →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> GENESIS. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var year = document.getElementById('year');
+            if (year) year.textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html>
+
+

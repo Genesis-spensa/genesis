@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>GENESIS</title>
+    <meta name="description" content="Situs resmi organisasi: misi, program, kegiatan, dan tim.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a class="brand" href="#home">
+                <img src="assets/favicon.svg" alt="Logo" width="28" height="28">
+                <span data-i18n="brand.name">Genesis</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#tentang" data-i18n="nav.tentang">Tentang</a></li>
+                <li><a href="sejarah.html" data-i18n="nav.sejarah">Sejarah</a></li>
+                <li><a href="program.html" data-i18n="nav.program">Program</a></li>
+                <li><a href="berita.html" data-i18n="nav.berita">Berita</a></li>
+                <li><a href="artikel.html">Artikel</a></li>
+                <li><a href="kegiatan.html" data-i18n="nav.kegiatan">Kegiatan</a></li>
+                <li><a href="tim.html" data-i18n="nav.tim">Tim</a></li>
+                <li><a class="btn" href="#kontak" data-i18n="nav.kontak_btn">Hubungi Kami</a></li>
+            </ul>
+            <div class="lang-switch" role="group" aria-label="Ganti bahasa">
+                <button class="lang-btn" data-lang="id" aria-pressed="true">ID</button>
+                <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema" title="Ganti tema">
+                <span class="icon" aria-hidden="true">🌓</span>
+                <span class="text" data-i18n="ui.theme">Tema</span>
+            </button>
+            <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero reveal stagger" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title" data-i18n="hero.title">Mewujudkan Dampak Nyata untuk UPT SMPN 1 PINRANG</h1>
+                <p data-i18n="hero.desc">Kami adalah organisasi yang berfokus pada pemberdayaan, pendidikan, dan kolaborasi lintas komunitas untuk masa depan yang keberlanjutan.</p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="#program" data-i18n="hero.cta_program">Lihat Program</a>
+                    <a class="btn ghost" href="#kontak" data-i18n="hero.cta_join">Bergabung</a>
+                </div>
+            </div>
+            <div class="hero-media" aria-hidden="true">
+                <img src="assets/favicon2.svg" alt="Hero Media">
+                <div class="glow"></div>
+            </div>
+        </section>
+
+        <section id="tentang" class="section reveal" aria-labelledby="tentang-title">
+            <div class="container">
+                <h2 id="tentang-title" data-i18n="about.title">Tentang Kami</h2>
+                <p data-i18n="about.desc">Kami berdiri untuk menjembatani akses pengetahuan dan sumber daya. Melalui program-program berbasis riset dan kolaborasi, kami menghadirkan solusi yang berpusat pada manusia.</p>
+                <div class="feature-grid">
+                    <article class="card">
+                        <h3 data-i18n="about.nilai_title">Nilai</h3>
+                        <p data-i18n="about.nilai_desc">Integritas, empati, inklusif, dan akuntabilitas dalam setiap langkah.</p>
+                    </article>
+                    <article class="card">
+                        <h3 data-i18n="about.visi_title">Visi</h3>
+                        <p data-i18n="about.visi_desc">Masyarakat berdaya yang mampu memimpin perubahan di lingkungannya.</p>
+                    </article>
+                    <article class="card">
+                        <h3 data-i18n="about.misi_title">Misi</h3>
+                        <p data-i18n="about.misi_desc">Menyediakan pendidikan, pelatihan, dan platform kolaborasi yang berdampak.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        
+        
+        <section id="kontak" class="section cta reveal no-bottom" aria-labelledby="kontak-title">
+            <div class="container">
+                <h2 id="kontak-title" data-i18n="contact.title">Siap Berkolaborasi?</h2>
+                <p data-i18n="contact.desc">Hubungi kami untuk kemitraan, program, atau relawan.</p>
+                <a class="btn primary" href="mailto:halo@organisasikita.org">halo@organisasikita.org</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+            <div class="social" aria-label="Jejak sosial">
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                    <span aria-hidden="true"></span>
+                    <span class="sr-only">Instagram</span>
+                </a>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+                    <span aria-hidden="true">f</span>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
+                    <span aria-hidden="true">▶</span>
+                    <span class="sr-only">YouTube</span>
+                </a>
+                <a href="https://wa.me/" target="_blank" rel="noopener" aria-label="WhatsApp">
+                    <span aria-hidden="true">✆</span>
+                    <span class="sr-only">WhatsApp</span>
+                </a>
+            </div>
+            <p style="margin:0;">© <span id="year"></span> <span data-i18n="brand.name">Genesis</span>. <span data-i18n="footer.rights">Semua hak dilindungi.</span></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var year = document.getElementById('year');
+            if (year) year.textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html>
+
+

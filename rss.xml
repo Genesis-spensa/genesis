@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Genesis - Berita</title>
+    <link>https://example.com/berita.html</link>
+    <description>Feed berita terbaru dari organisasi media sekolah Genesis.</description>
+    <item>
+      <title>Peluncuran Pusat Belajar Komunitas</title>
+      <link>https://example.com/artikel.html?id=1</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0700</pubDate>
+      <description>Kami membuka pusat belajar pertama yang menyediakan akses materi digital dan mentoring.</description>
+    </item>
+    <item>
+      <title>Kolaborasi dengan 10 UMKM Lokal</title>
+      <link>https://example.com/artikel.html?id=2</link>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0700</pubDate>
+      <description>Inkubasi batch 3 menggandeng 10 UMKM untuk akselerasi pemasaran, digitalisasi, dan keuangan.</description>
+    </item>
+    <item>
+      <title>Rilis Laporan Riset Kebijakan Pendidikan</title>
+      <link>https://example.com/artikel.html?id=3</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0700</pubDate>
+      <description>Rekomendasi model kemitraan sekolah–komunitas untuk peningkatan literasi membaca dini.</description>
+    </item>
+    <item>
+      <title>Siswa Kita Juara Lomba Jurnalistik</title>
+      <link>https://example.com/artikel.html?id=4</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0700</pubDate>
+      <description>Tim jurnalistik sekolah meraih juara 1 lomba penulisan berita tingkat kota.</description>
+    </item>
+    <item>
+      <title>Teknologi Baru di Lab Komputer</title>
+      <link>https://example.com/artikel.html?id=5</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0700</pubDate>
+      <description>Lab komputer mendapat perangkat baru untuk mendukung pembelajaran coding dan desain.</description>
+    </item>
+    <item>
+      <title>Pengumuman Seleksi Anggota OSIS</title>
+      <link>https://example.com/artikel.html?id=6</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0700</pubDate>
+      <description>Seleksi anggota OSIS dibuka minggu depan, simak syarat dan jadwal pendaftarannya.</description>
+    </item>
+  </channel>
+</rss>
+
+

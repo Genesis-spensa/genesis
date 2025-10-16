@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Program - Genesis</title>
+    <meta name="description" content="Program unggulan dan inisiatif Organisasi Kita.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a class="brand" href="index.html#home">
+                <img src="assets/favicon.svg" alt="Logo" width="28" height="28">
+                <span>Genesis</span>
+            </a>
+            <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html#tentang">Tentang</a></li>
+                <li><a href="sejarah.html">Sejarah</a></li>
+                <li><a href="program.html" aria-current="page">Program</a></li>
+                <li><a href="berita.html">Berita</a></li>
+                <li><a href="kegiatan.html">Kegiatan</a></li>
+                <li><a href="tim.html">Tim</a></li>
+                <li><a class="btn" href="index.html#kontak">Hubungi Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section reveal" aria-labelledby="program-title">
+            <div class="container">
+                <h1 id="program-title">Program Unggulan Genesis</h1>
+                <p class="intro">Setiap program menjadi wadah bagi siswa untuk belajar, berkarya, dan berkontribusi melalui media digital yang inspiratif.</p>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Genesis Capture</h3>
+                        <p>Dokumentasi foto dan video setiap kegiatan sekolah dengan konsep kreatif dan profesional.</p>
+                        <a class="link" href="index.html#kontak">Pelajari lebih lanjut →</a>
+                    </article>
+                    <article class="card">
+                        <h3>Genesis Studio</h3>
+                        <p>Pelatihan rutin bagi anggota dalam bidang fotografi, videografi, desain grafis, dan editing.</p>
+                        <a class="link" href="index.html#kontak">Pelajari lebih lanjut →</a>
+                    </article>
+                    <article class="card">
+                        <h3>Genesis News</h3>
+                        <p>Publikasi berita kegiatan sekolah melalui media sosial resmi sekolah.</p>
+                        <a class="link" href="index.html#kontak">Pelajari lebih lanjut →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Genesis. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var year = document.getElementById('year');
+            if (year) year.textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html>
+
+

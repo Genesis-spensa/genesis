@@ -127,7 +127,7 @@
       'about.misi_title': 'Misi',
       'about.misi_desc': 'Mengabadikan setiap kegiatan sekolah secara kreatif dan inspiratif sambil mengembangkan kemampuan anggota dalam bidang media digital serta menumbuhkan semangat kolaborasi dan tanggung jawab.',
       'contact.title': 'Siap Berkolaborasi?',
-      'contact.desc': 'Hubungi kami untuk kemitraan, program, atau relawan.',
+      'contact.desc': 'Hubungi kami untuk, program, atau relawan.',
       'footer.rights': 'Semua hak dilindungi.'
     },
     en: {
@@ -276,5 +276,6 @@
     });
   }
 })();
+
 
 
